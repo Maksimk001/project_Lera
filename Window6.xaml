@@ -1,0 +1,25 @@
+﻿<Window x:Class="proekt1.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proekt1"
+        
+        mc:Ignorable="d"
+        Title="Window" Height="450" Width="800"
+        ResizeMode="NoResize">
+    <Grid>
+        <Canvas>
+            <TextBlock FontSize="30" FontWeight="Bold" Foreground="LightSkyBlue" Canvas.Left="300" Canvas.Top="130">Время:</TextBlock>
+        </Canvas>
+        <Canvas>
+            <TextBlock x:Name="elapsedTimeTextBlock" Canvas.Left="410" Canvas.Top="139"  FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Canvas>
+        <Canvas>
+            <Button  FontWeight="Bold" Background="White" Foreground="LightSkyBlue"   FontSize="32" Height="60" Width="270" Canvas.Left="100" Canvas.Top="270" Click="ButtonMenu_Click" >Перейти в меню </Button>
+        </Canvas>                                                                           
+        <Canvas>
+            <Button FontWeight="Bold" Background="White" Foreground="LightSkyBlue"   FontSize="30" Height="60" Width="270" Canvas.Left="450" Canvas.Top="270"  Click="Buttontablider_Click" >Таблица лидеров</Button>
+        </Canvas>
+    </Grid>
+</Window>

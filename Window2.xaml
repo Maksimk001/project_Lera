@@ -1,0 +1,51 @@
+﻿<Window x:Class="proekt1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proekt1"
+        mc:Ignorable="d"
+        WindowState="Maximized" 
+        Title="Window2" Height="863" Width="1737">
+    <Grid>
+        <Canvas>
+            <Image Source="Image/dob1.png" Width="1300" Height="600" Canvas.Left="130" Canvas.Top="140"  />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle1" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="414" Canvas.Top="165" Width="57" Height="55" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle1_1" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Width="57" Height="55" Canvas.Left="1035" Canvas.Top="165" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle2" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="255" Canvas.Top="541" Width="57" Height="52" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle2_2" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="875" Canvas.Top="541" Width="57" Height="52" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle3" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="710" Canvas.Top="480" Width="57" Height="52" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle3_3" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="1329" Canvas.Top="480" Width="57" Height="52" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle4" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="472" Canvas.Top="514" Width="30" Height="30" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle4_4" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="1090" Canvas.Top="514" Width="30" Height="30" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle5" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="738" Canvas.Top="606" Width="29" Height="25" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <Rectangle Name="Rectangle5_5" Fill="Transparent" Stroke="Transparent" StrokeThickness="3" Canvas.Left="1357" Canvas.Top="606" Width="29" Height="25" MouseDown="Rectangle_MouseDown" />
+        </Canvas>
+        <Canvas>
+            <TextBox x:Name="resultTextBox" FontSize="50" VerticalContentAlignment="Center"  TextAlignment="Center"  Canvas.Left="690" Canvas.Top="40" Width="200" Height="70">0/5</TextBox>
+        </Canvas>
+        <Canvas>
+            <TextBlock x:Name="timerTextBox" FontSize="24" Width="200" Height="70" Canvas.Left="176" Canvas.Top="40" ></TextBlock>
+        </Canvas>
+    </Grid>
+</Window>

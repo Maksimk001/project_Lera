@@ -1,0 +1,21 @@
+﻿<Window x:Class="proekt1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proekt1"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Window5" Height="863" Width="1737">
+    <Grid>
+        <Canvas>
+            <TextBlock  Text="Введите никнейм" FontSize="48" FontWeight="Bold" Foreground="LightSkyBlue" Canvas.Left="560" Canvas.Top="250" />
+        </Canvas>
+        <Canvas>
+            <TextBox x:Name="NicknameTextBox" Width="600" Height="60" FontSize="40" Canvas.Left="475" Canvas.Top="450"  ></TextBox>
+        </Canvas>
+        <Canvas>
+            <Button FontSize="20" Content="Зарегистрироваться" Width="200" Height="50" Canvas.Left="670" Canvas.Top="600" Click="RegisterButton_Click" ></Button>
+        </Canvas>
+    </Grid>
+</Window>
